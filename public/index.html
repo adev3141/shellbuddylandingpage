@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShellBuddy - Gemini Powered</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+        .header-image {
+            max-width: 200px;
+        }
+        .code-block {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .nav-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .nav-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header section -->
+        <div class="text-center">
+            <img src="Resources/logo3.png" alt="ShellBuddy Logo" class="header-image">
+            <h1>ShellBuddy - Gemini Powered</h1>
+            <p>Streamline your workflow with easy access to Git commands and more.</p>
+        </div>
+
+        <!-- Installation section -->
+        <h2>Installation</h2>
+        <pre class="code-block">npm install -g shellbuddy@beta</pre>
+
+        <!-- Usage section -->
+        <h2>Usage</h2>
+        <p>Start using ShellBuddy with simple, natural language queries:</p>
+        <pre class="code-block">buddy how to undo the last commit</pre>
+        <p><strong>Output:</strong> <code>git revert HEAD</code></p>
+
+        <!-- Features section -->
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Intuitive NLP Interface</strong>: Ask questions in plain English and get precise Git commands.</li>
+            <li><strong>Comprehensive Git Command Library</strong>: Access a wide range of Git commands for common and advanced operations.</li>
+            <li><strong>Virtual Environment Management</strong>: Easily create, manage, and close Python virtual environments.</li>
+            <li><strong>Custom Command Execution</strong>: Define and run custom commands to streamline your workflow.</li>
+            <li><strong>In-Depth Repository Status</strong>: Get a detailed overview of your repository, including branch status, recent commits, and more.</li>
+            <li><strong>System Statistics</strong>: Quickly check system performance metrics with integrated tools like <code>htop</code>.</li>
+            <li><strong>Extendable and Adaptable</strong>: Add new features and custom commands to suit your unique needs.</li>
+        </ul>
+
+        <!-- Footer section -->
+        <p>Distributed under the MIT License.</p>
+
+        <!-- Sidebar with buttons -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <a href="https://github.com/adev3141/shell-buddy" target="_blank" class="nav-button">Explore More</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a href="https://discord.gg/DkC6fpSJ" target="_blank" class="nav-button">Discord</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
