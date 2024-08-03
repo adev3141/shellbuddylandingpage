@@ -6,16 +6,42 @@
     <title>ShellBuddy - Gemini Powered</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body {
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #181818; /* Dark background */
+            color: #e0e0e0; /* Light text color */
+            font-family: Arial, sans-serif;
+        }
+        .container-fluid {
+            display: flex;
+            height: 100%;
+        }
+        .sidebar {
+            background-color: #202020; /* Slightly lighter dark background */
             padding: 20px;
+            width: 250px;
+            height: 100%;
+            position: fixed;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+            flex-grow: 1;
         }
         .header-image {
+            width: 100%;
             max-width: 200px;
+            margin-bottom: 20px;
         }
         .code-block {
-            background-color: #f8f9fa;
+            background-color: #333333;
             padding: 10px;
             border-radius: 5px;
+            color: #66bb6a; /* Code color */
+            overflow-x: auto;
         }
         .nav-button {
             display: block;
@@ -24,58 +50,71 @@
             padding: 10px;
             margin: 10px 0;
             color: white;
-            background-color: #007bff;
+            background-color: #3d3d3d;
             border: none;
             border-radius: 5px;
             text-decoration: none;
+            transition: background-color 0.2s ease-in-out;
         }
         .nav-button:hover {
-            background-color: #0056b3;
+            background-color: #575757;
+        }
+        .license {
+            border-top: 1px solid #333333;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            .main-content {
+                margin-left: 0;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Header section -->
-        <div class="text-center">
+    <div class="container-fluid">
+        <!-- Sidebar -->
+        <div class="sidebar">
             <img src="Resources/logo3.png" alt="ShellBuddy Logo" class="header-image">
+            <a href="https://github.com/adev3141/shell-buddy" target="_blank" class="nav-button">Explore More</a>
+            <a href="https://discord.gg/DkC6fpSJ" target="_blank" class="nav-button">Discord</a>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header section -->
             <h1>ShellBuddy - Gemini Powered</h1>
             <p>Streamline your workflow with easy access to Git commands and more.</p>
-        </div>
 
-        <!-- Installation section -->
-        <h2>Installation</h2>
-        <pre class="code-block">npm install -g shellbuddy@beta</pre>
+            <!-- Installation section -->
+            <h2>Installation</h2>
+            <div class="code-block">npm install -g shellbuddy@beta</div>
 
-        <!-- Usage section -->
-        <h2>Usage</h2>
-        <p>Start using ShellBuddy with simple, natural language queries:</p>
-        <pre class="code-block">buddy how to undo the last commit</pre>
-        <p><strong>Output:</strong> <code>git revert HEAD</code></p>
+            <!-- Usage section -->
+            <h2>Usage</h2>
+            <p>Start using ShellBuddy with simple, natural language queries:</p>
+            <div class="code-block">buddy how to undo the last commit</div>
+            <p><strong>Output:</strong> <code>git revert HEAD</code></p>
 
-        <!-- Features section -->
-        <h2>Features</h2>
-        <ul>
-            <li><strong>Intuitive NLP Interface</strong>: Ask questions in plain English and get precise Git commands.</li>
-            <li><strong>Comprehensive Git Command Library</strong>: Access a wide range of Git commands for common and advanced operations.</li>
-            <li><strong>Virtual Environment Management</strong>: Easily create, manage, and close Python virtual environments.</li>
-            <li><strong>Custom Command Execution</strong>: Define and run custom commands to streamline your workflow.</li>
-            <li><strong>In-Depth Repository Status</strong>: Get a detailed overview of your repository, including branch status, recent commits, and more.</li>
-            <li><strong>System Statistics</strong>: Quickly check system performance metrics with integrated tools like <code>htop</code>.</li>
-            <li><strong>Extendable and Adaptable</strong>: Add new features and custom commands to suit your unique needs.</li>
-        </ul>
+            <!-- Features section -->
+            <h2>Features</h2>
+            <ul>
+                <li><strong>Intuitive NLP Interface</strong>: Ask questions in plain English and get precise Git commands.</li>
+                <li><strong>Comprehensive Git Command Library</strong>: Access a wide range of Git commands for common and advanced operations.</li>
+                <li><strong>Virtual Environment Management</strong>: Easily create, manage, and close Python virtual environments.</li>
+                <li><strong>Custom Command Execution</strong>: Define and run custom commands to streamline your workflow.</li>
+                <li><strong>In-Depth Repository Status</strong>: Get a detailed overview of your repository, including branch status, recent commits, and more.</li>
+                <li><strong>System Statistics</strong>: Quickly check system performance metrics with integrated tools like <code>htop</code>.</li>
+                <li><strong>Extendable and Adaptable</strong>: Add new features and custom commands to suit your unique needs.</li>
+            </ul>
 
-        <!-- Footer section -->
-        <p>Distributed under the MIT License.</p>
-
-        <!-- Sidebar with buttons -->
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <a href="https://github.com/adev3141/shell-buddy" target="_blank" class="nav-button">Explore More</a>
-            </div>
-            <div class="col-12 col-md-6">
-                <a href="https://discord.gg/DkC6fpSJ" target="_blank" class="nav-button">Discord</a>
-            </div>
+            <!-- Footer section -->
+            <p class="license">Distributed under the MIT License.</p>
         </div>
     </div>
 </body>
