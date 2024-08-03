@@ -1,0 +1,460 @@
+[debug] [2024-08-03T19:58:51.452Z] ----------------------------------------------------------------------
+[debug] [2024-08-03T19:58:51.453Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2024-08-03T19:58:51.454Z] CLI Version:   13.15.0
+[debug] [2024-08-03T19:58:51.454Z] Platform:      darwin
+[debug] [2024-08-03T19:58:51.454Z] Node Version:  v18.17.1
+[debug] [2024-08-03T19:58:51.459Z] Time:          Sun Aug 04 2024 00:58:51 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-08-03T19:58:51.460Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-03T19:58:51.463Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-03T19:58:51.463Z] > authorizing via signed-in user (alihassanm381@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/devprofile/Documents/GitHub/shellbuddylandingpage
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-08-03T19:58:59.567Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-08-03T19:59:00.402Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-08-03T19:59:00.402Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project portfolio-fc607 (portfolio) 
+[info] 
+=== Hosting Setup
+[debug] [2024-08-03T19:59:07.160Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-fc607 [none]
+[debug] [2024-08-03T19:59:07.686Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-fc607 200
+[debug] [2024-08-03T19:59:07.687Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-fc607 {"projectId":"portfolio-fc607","projectNumber":"236346432378","displayName":"portfolio","name":"projects/portfolio-fc607","resources":{"hostingSite":"portfolio-fc607"},"state":"ACTIVE","etag":"1_05f15bb1-cf8e-4b9e-8aeb-6a92c71eeb2c"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote public/404.html 
+[debug] [2024-08-03T20:00:20.558Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-08-03T20:00:20.790Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-08-03T20:00:20.790Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.12.5","browserURL":"https://www.gstatic.com/firebasejs/10.12.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.12.5/firebase.tgz"},"live":{"version":"10.12","browserURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.12.5/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.12.5/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.12.5/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.12.5/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.12.5/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.12.5/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.12.5/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.12.5/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.12.5/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.12.5/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js","vertexai-preview":"https://www.gstatic.com/firebasejs/10.12.5/firebase-vertexai-preview.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/devprofile/Documents/GitHub/shellbuddylandingpage 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=10116650&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-08-03T20:00:34.261Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-08-03T20:00:34.266Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-08-03T20:00:35.488Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-08-03T20:00:35.488Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-08-03T20:00:35.490Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-08-03T20:00:36.770Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-08-03T20:00:36.770Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"adev3141","id":57753201,"node_id":"MDQ6VXNlcjU3NzUzMjAx","avatar_url":"https://avatars.githubusercontent.com/u/57753201?v=4","gravatar_id":"","url":"https://api.github.com/users/adev3141","html_url":"https://github.com/adev3141","followers_url":"https://api.github.com/users/adev3141/followers","following_url":"https://api.github.com/users/adev3141/following{/other_user}","gists_url":"https://api.github.com/users/adev3141/gists{/gist_id}","starred_url":"https://api.github.com/users/adev3141/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adev3141/subscriptions","organizations_url":"https://api.github.com/users/adev3141/orgs","repos_url":"https://api.github.com/users/adev3141/repos","events_url":"https://api.github.com/users/adev3141/events{/privacy}","received_events_url":"https://api.github.com/users/adev3141/received_events","type":"User","site_admin":false,"name":"ADev","company":"GIMTransfer","blog":"","location":"Netherlands","email":null,"hireable":true,"bio":"I love to write scalable code and I'm beginning my open source journey!\r\n\r\ndiscord: ADev","twitter_username":null,"notification_email":null,"public_repos":32,"public_gists":4,"followers":30,"following":179,"created_at":"2019-11-14T10:42:38Z","updated_at":"2024-08-01T11:55:12Z","private_gists":0,"total_private_repos":7,"owned_private_repos":7,"disk_usage":308400,"collaborators":1,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as adev3141 
+[info] 
+[debug] [2024-08-03T20:01:54.855Z] >>> [apiv2][query] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:01:55.796Z] <<< [apiv2][status] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key 404
+[debug] [2024-08-03T20:01:55.796Z] <<< [apiv2][body] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:26.940Z] >>> [apiv2][query] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:27.865Z] <<< [apiv2][status] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:27.865Z] <<< [apiv2][body] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:31.083Z] >>> [apiv2][query] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:31.950Z] <<< [apiv2][status] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:31.950Z] <<< [apiv2][body] GET https://api.github.com/repos/shellbuddylandingpage/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:37.045Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:37.952Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:37.953Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:38.042Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:39.329Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:39.329Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:47.858Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:48.042Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:48.209Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:48.365Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:48.759Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:48.759Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:49.265Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:49.266Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:49.384Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:49.385Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:49.519Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:49.519Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:02:58.723Z] >>> [apiv2][query] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:59.656Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:02:59.776Z] <<< [apiv2][status] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key 404
+[debug] [2024-08-03T20:02:59.776Z] <<< [apiv2][body] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:00.375Z] >>> [apiv2][query] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:00.847Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:00.847Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:00.922Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:00.953Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.036Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.119Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.203Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.286Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.373Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.458Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.541Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.591Z] <<< [apiv2][status] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:01.591Z] <<< [apiv2][body] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:01.659Z] >>> [apiv2][query] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.705Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.788Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.852Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:01.852Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:01.923Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:01.955Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.038Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.068Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.068Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.125Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.125Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.139Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.180Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.180Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.181Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.181Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.281Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.282Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.322Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.322Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.351Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.352Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.363Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.363Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.400Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.400Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.408Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.463Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.568Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.622Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:03:02.653Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.653Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.874Z] <<< [apiv2][status] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.874Z] <<< [apiv2][body] GET https://api.github.com/repos/SHELLBUDDYLANDINGPAGE/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:02.916Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:02.916Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.055Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.055Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.087Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.087Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.139Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.139Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.195Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.195Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.202Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.202Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.229Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.229Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.296Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.296Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.378Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.379Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.503Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.503Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:03:03.772Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:03:03.773Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:04:02.538Z] >>> [apiv2][query] GET https://api.github.com/repos/user/shellbuddylandingpage/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:04:02.941Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:04:03.479Z] <<< [apiv2][status] GET https://api.github.com/repos/user/shellbuddylandingpage/actions/secrets/public-key 404
+[debug] [2024-08-03T20:04:03.479Z] <<< [apiv2][body] GET https://api.github.com/repos/user/shellbuddylandingpage/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:04:04.139Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-08-03T20:04:04.140Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-08-03T20:05:27.383Z] >>> [apiv2][query] GET https://api.github.com/repos/adev3141/shellbuddylandingpage/actions/secrets/public-key type=owner
+[debug] [2024-08-03T20:05:28.694Z] <<< [apiv2][status] GET https://api.github.com/repos/adev3141/shellbuddylandingpage/actions/secrets/public-key 200
+[debug] [2024-08-03T20:05:28.694Z] <<< [apiv2][body] GET https://api.github.com/repos/adev3141/shellbuddylandingpage/actions/secrets/public-key {"key_id":"3380204578043523366","key":"EaR9Ezd772E4IBC2MlQMBggRcMfCfqavUUvQv9HWPBk="}
+[debug] [2024-08-03T20:05:28.696Z] >>> [apiv2][query] GET https://api.github.com/repos/adev3141/shellbuddylandingpage [none]
+[debug] [2024-08-03T20:05:29.909Z] <<< [apiv2][status] GET https://api.github.com/repos/adev3141/shellbuddylandingpage 200
+[debug] [2024-08-03T20:05:29.909Z] <<< [apiv2][body] GET https://api.github.com/repos/adev3141/shellbuddylandingpage {"id":836709752,"node_id":"R_kgDOMd8teA","name":"shellbuddylandingpage","full_name":"adev3141/shellbuddylandingpage","private":false,"owner":{"login":"adev3141","id":57753201,"node_id":"MDQ6VXNlcjU3NzUzMjAx","avatar_url":"https://avatars.githubusercontent.com/u/57753201?v=4","gravatar_id":"","url":"https://api.github.com/users/adev3141","html_url":"https://github.com/adev3141","followers_url":"https://api.github.com/users/adev3141/followers","following_url":"https://api.github.com/users/adev3141/following{/other_user}","gists_url":"https://api.github.com/users/adev3141/gists{/gist_id}","starred_url":"https://api.github.com/users/adev3141/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adev3141/subscriptions","organizations_url":"https://api.github.com/users/adev3141/orgs","repos_url":"https://api.github.com/users/adev3141/repos","events_url":"https://api.github.com/users/adev3141/events{/privacy}","received_events_url":"https://api.github.com/users/adev3141/received_events","type":"User","site_admin":false},"html_url":"https://github.com/adev3141/shellbuddylandingpage","description":"a product landing page for shellbuddy ","fork":false,"url":"https://api.github.com/repos/adev3141/shellbuddylandingpage","forks_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/forks","keys_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/keys{/key_id}","collaborators_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/teams","hooks_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/hooks","issue_events_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/issues/events{/number}","events_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/events","assignees_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/assignees{/user}","branches_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/branches{/branch}","tags_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/tags","blobs_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/git/refs{/sha}","trees_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/git/trees{/sha}","statuses_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/statuses/{sha}","languages_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/languages","stargazers_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/stargazers","contributors_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/contributors","subscribers_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/subscribers","subscription_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/subscription","commits_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/commits{/sha}","git_commits_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/git/commits{/sha}","comments_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/comments{/number}","issue_comment_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/issues/comments{/number}","contents_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/contents/{+path}","compare_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/compare/{base}...{head}","merges_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/merges","archive_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/downloads","issues_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/issues{/number}","pulls_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/pulls{/number}","milestones_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/milestones{/number}","notifications_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/labels{/name}","releases_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/releases{/id}","deployments_url":"https://api.github.com/repos/adev3141/shellbuddylandingpage/deployments","created_at":"2024-08-01T11:53:48Z","updated_at":"2024-08-03T01:16:38Z","pushed_at":"2024-08-03T01:16:12Z","git_url":"git://github.com/adev3141/shellbuddylandingpage.git","ssh_url":"git@github.com:adev3141/shellbuddylandingpage.git","clone_url":"https://github.com/adev3141/shellbuddylandingpage.git","svn_url":"https://github.com/adev3141/shellbuddylandingpage","homepage":null,"size":89439,"stargazers_count":0,"watchers_count":0,"language":"Python","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"temp_clone_token":"","allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","security_and_analysis":{"secret_scanning":{"status":"enabled"},"secret_scanning_push_protection":{"status":"enabled"},"dependabot_security_updates":{"status":"disabled"},"secret_scanning_non_provider_patterns":{"status":"disabled"},"secret_scanning_validity_checks":{"status":"disabled"}},"network_count":0,"subscribers_count":1}
+[debug] [2024-08-03T20:05:29.911Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts [none]
+[debug] [2024-08-03T20:05:29.912Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts {"accountId":"github-action-836709752","serviceAccount":{"displayName":"GitHub Actions (adev3141/shellbuddylandingpage)","description":"A service account with permission to deploy to Firebase Hosting and Cloud Functions for the GitHub repository adev3141/shellbuddylandingpage"}}
+[debug] [2024-08-03T20:05:31.936Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts 200
+[debug] [2024-08-03T20:05:31.936Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts [omitted]
+[debug] [2024-08-03T20:05:31.937Z] >>> [apiv2][query] GET https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com [none]
+[debug] [2024-08-03T20:05:31.939Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-fc607:getIamPolicy [none]
+[debug] [2024-08-03T20:05:33.389Z] <<< [apiv2][status] GET https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com 200
+[debug] [2024-08-03T20:05:33.389Z] <<< [apiv2][body] GET https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com {"name":"projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com","projectId":"portfolio-fc607","uniqueId":"100401554150848076874","email":"github-action-836709752@portfolio-fc607.iam.gserviceaccount.com","displayName":"GitHub Actions (adev3141/shellbuddylandingpage)","etag":"MDEwMjE5MjA=","description":"A service account with permission to deploy to Firebase Hosting and Cloud Functions for the GitHub repository adev3141/shellbuddylandingpage","oauth2ClientId":"100401554150848076874"}
+[debug] [2024-08-03T20:05:33.664Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-fc607:getIamPolicy 200
+[debug] [2024-08-03T20:05:33.664Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-fc607:getIamPolicy {"version":1,"etag":"BwYezMSy3yg=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com","serviceAccount:service-236346432378@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-nsokb@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-nsokb@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:alihassanm381@gmail.com"]}]}
+[debug] [2024-08-03T20:05:33.665Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-fc607:setIamPolicy [none]
+[debug] [2024-08-03T20:05:33.665Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-fc607:setIamPolicy {"policy":{"version":1,"etag":"BwYezMSy3yg=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com","serviceAccount:service-236346432378@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-nsokb@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-nsokb@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:alihassanm381@gmail.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.serviceUsageConsumer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/cloudfunctions.developer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]}]},"updateMask":"bindings"}
+[debug] [2024-08-03T20:05:36.082Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-fc607:setIamPolicy 200
+[debug] [2024-08-03T20:05:36.082Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-fc607:setIamPolicy {"version":1,"etag":"BwYezPeXR1k=","bindings":[{"role":"roles/cloudfunctions.developer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com","serviceAccount:service-236346432378@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-nsokb@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-nsokb@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:alihassanm381@gmail.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.serviceUsageConsumer","members":["serviceAccount:github-action-836709752@portfolio-fc607.iam.gserviceaccount.com"]}]}
+[debug] [2024-08-03T20:05:36.083Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com/keys [none]
+[debug] [2024-08-03T20:05:36.083Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com/keys {"keyAlgorithm":"KEY_ALG_UNSPECIFIED","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE"}
+[debug] [2024-08-03T20:05:37.929Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com/keys 200
+[debug] [2024-08-03T20:05:37.929Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com/keys {"name":"projects/portfolio-fc607/serviceAccounts/github-action-836709752@portfolio-fc607.iam.gserviceaccount.com/keys/b757c207ff74b46ab20611ccdb6603d4e4035362","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE","privateKeyData":"ewogICJ0eXBlIjogInNlcnZpY2VfYWNjb3VudCIsCiAgInByb2plY3RfaWQiOiAicG9ydGZvbGlvLWZjNjA3IiwKICAicHJpdmF0ZV9rZXlfaWQiOiAiYjc1N2MyMDdmZjc0YjQ2YWIyMDYxMWNjZGI2NjAzZDRlNDAzNTM2MiIsCiAgInByaXZhdGVfa2V5IjogIi0tLS0tQkVHSU4gUFJJVkFURSBLRVktLS0tLVxuTUlJRXZnSUJBREFOQmdrcWhraUc5dzBCQVFFRkFBU0NCS2d3Z2dTa0FnRUFBb0lCQVFESkJ3UXBVTTBJSDR2TlxuTUJ4OGVVR29aYzhiQ3hPaTF6YkRzQVpTZUQ5M3NyekV6UnVRWmliTzlhUnYzU1FZMit4eURUUk5TdllRSllhc1xuM1hOQzAzWDFqQlFZSk9GOTl4YVdxbEdNL1pQbEZnTGY4NzNsL0dRdGd4N3o2cFV3QmRsd0REL1RlSW0yREpSdVxuV1BBZ04rcExuREoxTkI0MmV6dTRtcGtJVklWTjlnbTZSVTB0UlYrV1NJVkIrVGF3QTRzdW9kY1Y3RXI4aXhmYVxubldyejlUcFoydk9qam55M0V1ZlV1b095YlFaZmZad3JKN1Y0RXZlUW4wTTY2anh6MFgrRWdlYjRtaU5Falk0d1xueGlQMk03ZmRGbEJqdjZ5RXJaRWdGcS9GNnkzTko2YmptRTlGMWZhMURlbU0zV3BVd1hqdjZCRjFRSDYxM0ZYQlxuOFV0UGZYL05BZ01CQUFFQ2dnRUFCK3VFMkhQY2dCTnVHSmxxcGVUSkYyOWJaMzlhT0xJdDhDdkJOQUtVell4M1xuTDNHOVFrVWtCa2RiUVNUL1JSTjFEMUZCM0VHMXpCRU9hMFVXUTIyOVdmMDQxWEt1aDUzeWYrRVo4V29VSjVSa1xuYkpwWHd2WGNwSVpqODh3c01JWXFlT1dpcGh3N29MYUNLbzdLZHhwODJwbSt5eXRRZldrQmcxWmo3UllYWW1qYlxuTmoydk5EQ0JkQzltaEhveWltbzJkNUFwVkRUN0JyT0FmS2FncEpPR0hIbzJRTE1WSEVxNmRNdUl6dkxPUkgvdFxubGtPYlVYeGNvNFQwTDZjdEZHM21qVUx4K1RSUTVna2dCUHdMV3NieWRxSmZYUFBNTWFRZ0tjNEJTV0d4bDd5VFxubWZCaVdJMllDUmVtbEp5ZXdYRGRMdVFYLzhPMG5CODUxN0tMOCswZ3FRS0JnUUR2c0lsSm0wQjZBNENSeSt4N1xuYXBkckhQblhCODUvcUFieFpab1RhaC8vMDZnejRyQTUyeHhxUW5Fc1ZXU25sREdGeFR1OU5nZXJMQWZ0M2NYTVxueHlHMm41Nk51MExvSlpFN2NOQ1ZkWlJQaFRCRDk0ellVOHFwU253djZ3Mm05MHYzaDZaTWg1cFFwOXhMa3gwS1xuaUhzSjZkVjBoclB3dGQ2VTJUL0RQR05yTndLQmdRRFd0UGtrNVlmT3MycEpJeGRXcktqcUo1clRBV1VPK3doTFxudUxoQ0FNcys0dmY3SnR1endHcHJZQjVac2ZFTWtmaGw1VTdETkdTM3JzdFE4TytkNnFmME5LY2tlbU1lVlZEOVxuZU1QQU1Ya0RjOGFGRGJIU3FRV2dkR3Y5YitMN2ZXYkJqUi9KOEFMZ3JkZzMwOElGOXIrSDFjS2NqSjdDdzRiNlxuVXI1QjFMclhHd0tCZ1FDM3NVSGw2VmZHcXJ4MEFDYmlodFE0d09Jd2k4a1VTSC9aclJZaDN1bGJOS2pwNnNkSFxuNzhhZElRSi9DWXEwYTN4d21yR24xcXFWNG83SkczZWw4czdCbVI3NFhCVnd1S25QTml5RS9yR0ZKL3ZQZXY2MFxuSTdOamZyUWlQVEFmVDlNbWh3MUtCWHFjYWFrSk9sdTlZTTk2ejN4SmE1cW4xWm9aMVUxcW9QTklqUUtCZ0JQL1xuVnhVd3E2MTgySEZuYTAwUFY4dzNWQnhERFA2UU12MmFmczdtOUFjdmJKbGZ6U2E0elRDakN6Q2ZlaXdKakhFeFxuSWx6Y0RHVnZTbENIb0VtOUNWZWRiOVBkOGsxbzlOb20zVlNSUnd3alJHSXdIRmZhbGtPVGxGdE9pSDJUK0hZZVxuaHM5d0kxUjUzS0dXZjRPK3I2Z2ZLTGtiLzgxMEdLWkgvcUJ6QjlQeEFvR0JBTlFSeE9ybmtQcC9vcWc2SE0zalxuTGc4TVN2KzBpeFRCaUxHcUdlOHppNkZQZzZUbWRwc2JxT1p3ZUxxbHN3Y0g0TFNwbkZBdzhqMzlpb2lZUXp4dFxublQyaGNxLzhoOUhWWkJyMlBXTmFQUGZPK1luaDV1QkFMQWNibVZ5YlI4RUc5cXdYUVVFYzlzK0hqQXBTbGdya1xuYjF2Z3RqL2ZSZXJjOTRUaXp2a29TNVRyXG4tLS0tLUVORCBQUklWQVRFIEtFWS0tLS0tXG4iLAogICJjbGllbnRfZW1haWwiOiAiZ2l0aHViLWFjdGlvbi04MzY3MDk3NTJAcG9ydGZvbGlvLWZjNjA3LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwKICAiY2xpZW50X2lkIjogIjEwMDQwMTU1NDE1MDg0ODA3Njg3NCIsCiAgImF1dGhfdXJpIjogImh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbS9vL29hdXRoMi9hdXRoIiwKICAidG9rZW5fdXJpIjogImh0dHBzOi8vb2F1dGgyLmdvb2dsZWFwaXMuY29tL3Rva2VuIiwKICAiYXV0aF9wcm92aWRlcl94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL29hdXRoMi92MS9jZXJ0cyIsCiAgImNsaWVudF94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL3JvYm90L3YxL21ldGFkYXRhL3g1MDkvZ2l0aHViLWFjdGlvbi04MzY3MDk3NTIlNDBwb3J0Zm9saW8tZmM2MDcuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLAogICJ1bml2ZXJzZV9kb21haW4iOiAiZ29vZ2xlYXBpcy5jb20iCn0K","validAfterTime":"2024-08-03T20:05:37Z","validBeforeTime":"9999-12-31T23:59:59Z","keyAlgorithm":"KEY_ALG_RSA_2048","keyOrigin":"GOOGLE_PROVIDED","keyType":"USER_MANAGED"}
+[info] 
+[info] ✔  Created service account github-action-836709752 with Firebase Hosting admin permissions. 
+[debug] [2024-08-03T20:05:37.933Z] >>> [apiv2][query] PUT https://api.github.com/repos/adev3141/shellbuddylandingpage/actions/secrets/FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_FC607 [none]
+[debug] [2024-08-03T20:05:37.934Z] >>> [apiv2][body] PUT https://api.github.com/repos/adev3141/shellbuddylandingpage/actions/secrets/FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_FC607 {"encrypted_value":"4qAW2Ao1mnHO4RRocCY4pbonJFDIee8mDLPKUvsxP3Q7siOlgWzCeugCWp6WGUGgo4r2yUHgW5aRSAgKGK4/JOcmlV7i2quNB3BbQFQPUAS0iUzJA6NNlMOw/MAoAlCq/Mxi6OrYFhLI3qmXn/EqLvI7TrioqdTrMGny48R8OOkR4/h3+aV1iadOy2cNXbkgdMmwe8qGDJRq6yqsfoB7rFtxLL70eudKdEdoIje8iM0E6t3rjI5gUgvAqCk9doFvr7E/fOMCiRb5bv4soF+deeZM2Q5eZxMufYYLd+nr2S1rzIyFWMDmvcvPHoVyplzQUQQU9Q5wrrnKh6zbK2UC1krlhv60qtLW97Zww4aDspbyBTrPjymJNUa6ds5N5IS7ofL+wwqBXEq7sZy0NO0ywwwbpzfJ8nELW6myO9E+8OaV4CkHKJFxvpWZ6y5G93KE5iLbbGlcFuQT9GSE8DwQMuxBL28qwK9Q0xsQsiKEbzVgryldIJ+ZIZPOTGm//pf5XSXWYFUCaGctaq753pIVJ4S8futHrGxy/SYneD1xfc2xSV/HZwg1cnA6lpDBcvp+k4lmBOP1OrxePF19qJz4tH9uo/gaRnNO4z7noCWYUcSTHtfyh6iAcM5q2iUKo3o8iZ0qk9lc3H+M7XTI6oaRe8z0EbSbWkQeKr5KGLZ7E5LmNdq6SVh9dZ8POAV345vzDm1UHjHE+AIq2kFHl+Sw49FhCKZC1FvSFQXCzZafgtwLTIWT0L0SG1sFTtgY8+PWSR5oXxWCRnt1FN3zXkLBGQaD0qMczp5uPu2n6qtAJ/sqKIa4eZKWYGEomH4UbLhn5LAosXea9WRvNnq/zhaB/S5XbQDEtnKYQzNbfXakGnIrNri4+/NuQXuhGlcw3hY4wfMLlHuEm291bnCfFvwjepHftOuvZnUJ2rJ4KPR0RPbJUL0RNivu0UVpB6psrSVX6oWmQh5o4rxq5QYIevH6GyAcyCUdMUL0sgE7yfC/yYW7E7zzBJJDX6J2NioPGBF/0et+1cA0A/a+vXt/lxfLzK4RkL6/HSLumYe7CX4L7NXi/gkX+hWF+hd9wR8DIdZfw49YEbsCNu4ixJOJyzAkIOBVGQwjmgpe8lN5L1MvXlkduQxYrLi6QceEuNEKDJ2IKHZaMIaA5regnL8hxPAEGD1v0RmK0dEkWhAjxYJaWmH18FeELXqQ4tjRiOw4Ok47b1qzdohcpCJc4LuO2zOvvgBYLTGMVyqio7kvRVpnSelNWkpWapaQgpYfxMgUQeCEIvaf6kAViq4j2q8NeyRPdsGifvOzuyDMKUac0izZU7w+Z+orzQpohddawbYbGf4ah5O6iLPbTspIrKAUiMg7vvoMB2MJPi1ha1fTzuSQB+0nuBlwZWoxMyLzuoL9DGOthnfwXSVsKsPXzn7Mtg5Gy8tKaQKBwq7VYvGykCo00cGBacR6o4bJnONDxFZTDclDb5GfLjWOYZLaS31aGhwY6humjwTE0ayE9BOOe0ivudnvX035UbXUpowqj07ezp8fVV7Wh3A0o1TrhZzDQDHlPLg21KxUlwH+7C/joasQg7//Wvn1Q+knOJtTXrE7t2yudUI5ZbmXs5EQBREbIB64w9Ojy8z9vr+OD1Y8AWyQHzB4DkS9ZEvgjWd5OTN2v+QpN0TnPJ3tb+FnlkcRbaiKSdOa1sx0capm0H6iNlXTBcqgJBkTgh7Dn89vW4dA/DSBJ5n8STiPCsLrgL8SYDGYV1oFfhnodATVwKjaBY5iHNl98YknIN/Xy9IN6rd1ZiAxYcXY6yJsHSkuSoX2oQR0kqwy6RBqGiexghFSqSXLGV38HbaocihI6WpoGQ4sKsgaBRoOJ+zRg98t0M+RBg+EsG9JovaoOpUm01Sm20+SYkps9AUpRXLYuYreie13brOsW8dWKAQnu+gLwQ2vRv9yTDV/Nbv8XkzLw5OFcm2wK91lZcDS6QB+rPM2yvwywQ67gHLlwz5cMcIzb7+MtW3kgA2A2ZvgcrwtjeAhnHTEJofoYz6HvaEc/o/9liGnKkyIv6joQ6WLUfBLGZoKEb4kFU8+rVw3tTUTl3NW9uMRIFF7Qv23P6RqlcM92HHXXOMCe1Xt70AlhDRrFhCgiEsGb3IhIlkHHGojqJEVqCwmErGtbNPyWqX2hCThdrVrTbJ0IGx+YyVZR3FruONIIBqKA40XoipNQOIkPkgutCGlULAic1LDDsrkn/Brr3uXIgqNIg3edBEfRTHJVW/kq3j9esY3nNFbVenpRUgJ2OzqtVvSg+1GB9+wxwWnESgqopCAcFqGFAPWIxTNyDw0mdZrlvFHODrOaGENpk9g/n/xd94QxOIwStsFDmGs/QhdzeqChbRRrtQq/YiZ2gJ7j3eaVIFmiCftbjL7V3JzBFr2gT99sPCXyDFdqobyWteU/eU9IhfufvwVh9aoqHRt5iJCwe5hRzxcAsINvutS+i4x7SDbhd3UIXmWiOxzOhiwJTqHb9/GgOspN536sCdPGu4FOvW57WLaa0Bmx2+Lz0keBGLQGA4JMkDlthRvg7E+C6LoYYUIg+FbeFQlomGf+5NAouQcWpoWHp5ROtqa+RvLcWCumIbTsH/QRcZX8KLqHzp9NoSWmmUpOiT98hs1cNfDIPZcvLaAWLO03mqp3qnbL3CiYZ2Sz7VdcvQ0Mo7YMdF+GD/1XSZUvQb83IX/OldlKdI64TI/+wy/m6VWEb91c8IL22o6Iaqbem1ITEVXmzP/DcS6SAYh26k3ABMjOynHWEgLVUwgNp2k6e0GQuMQNw2/7T/gJ7cuEIarirBIMSKe2QnPt9TgWKbxNGT2qp5KytGh0o2xpOG7T+GaNvUNORjH2v3v+/HrScbHoDlsrJrK9YgArhu3K3+1eWHQezl4uvFTgH1T3z03yU+/AhAfnDZxDtqMpZ0wKVe6yiBgav6bjvd9jb3ycGZSGiheR/a5mHlOhHxsnwjh0rynKCpp3OX8xZa0JunI3VYzE0vbcaRQ50I+bz3QjuOr7TltTe4mVCMsifPhuqHKUGKs9AC0kbmDHFN3iVCJsU0/fGwkbfA3wAOT834lzf139NDwbC/kwSWPu+wcdW7J51cVZDWynHf8tN+2FkfT13HkDgepyivzNLR4lg9iDqQMlyCcQK5SbsOwngCrv3L6L+7WGjuWGQB4Khy4k+dg/vNAYRFpSjtMIL9baGQYA+X02le79JzQpQa/iRogmhIjUE9EK0emOEO4","key_id":"3380204578043523366"}
+[debug] [2024-08-03T20:05:38.842Z] <<< [apiv2][status] PUT https://api.github.com/repos/adev3141/shellbuddylandingpage/actions/secrets/FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_FC607 201
+[debug] [2024-08-03T20:05:38.842Z] <<< [apiv2][body] PUT https://api.github.com/repos/adev3141/shellbuddylandingpage/actions/secrets/FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_FC607 {}
+[info] ✔  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_FC607. 
+[info] i  You can manage your secrets at https://github.com/adev3141/shellbuddylandingpage/settings/secrets. 
+[info] 
+[info] 
+[info] ✔  Created workflow file /Users/devprofile/Documents/GitHub/shellbuddylandingpage/.github/workflows/firebase-hosting-pull-request.yml 
