@@ -5,7 +5,7 @@ st.set_page_config(page_title='ShellBuddy', layout='wide')
 
 # Header section
 st.image('Resources/logo3.png', width=200)  # Update with the path to your logo
-st.title('ShellBuddy - Gemini Powered')
+st.title('ShellBuddy')
 st.write("Increase your productivity on the commandline interfaces.")
 
 # Installation section
