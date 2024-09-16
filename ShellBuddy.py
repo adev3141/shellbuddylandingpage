@@ -58,7 +58,7 @@ def nav_button(label, url):
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: #4CAF50;
+                background-color: #3d3d3d;
                 color: white;
                 padding: 10px;
                 border-radius: 5px;
