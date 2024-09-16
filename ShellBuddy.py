@@ -74,6 +74,6 @@ def nav_button(label, url):
     )
 
 with st.sidebar:
-    nav_button('Explore More', 'https://github.com/adev3141/shell-buddy')
+    nav_button('GitHub', 'https://github.com/adev3141/shell-buddy')
     nav_button('Discord', 'https://discord.gg/DkC6fpSJ')
     nav_button('NPM Package', 'https://www.npmjs.com/package/shellbuddy')  # New Button Added
