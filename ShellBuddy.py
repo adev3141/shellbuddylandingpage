@@ -51,6 +51,7 @@ st.write('Distributed under the MIT License.')
 
 # Sidebar with buttons
 def nav_button(label, url):
+    def nav_button(label, url):
     st.markdown(
         f'''
         <a href="{url}" target="_blank" style="text-decoration: none;">
@@ -72,6 +73,7 @@ def nav_button(label, url):
         ''',
         unsafe_allow_html=True
     )
+
 
 with st.sidebar:
     nav_button('GitHub', 'https://github.com/adev3141/shell-buddy')
