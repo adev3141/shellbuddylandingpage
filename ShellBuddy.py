@@ -52,10 +52,28 @@ st.write('Distributed under the MIT License.')
 # Sidebar with buttons
 def nav_button(label, url):
     st.markdown(
-        f'<a href="{url}" target="_blank"><button style="width: 100%;">{label}</button></a>',
+        f'''
+        <a href="{url}" target="_blank" style="text-decoration: none;">
+            <div style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                cursor: pointer;
+                text-align: center;
+            ">
+                {label}
+            </div>
+        </a>
+        ''',
         unsafe_allow_html=True
     )
 
 with st.sidebar:
     nav_button('Explore More', 'https://github.com/adev3141/shell-buddy')
     nav_button('Discord', 'https://discord.gg/DkC6fpSJ')
+    nav_button('NPM Package', 'https://www.npmjs.com/package/shellbuddy')  # New Button Added
