@@ -51,7 +51,6 @@ st.write('Distributed under the MIT License.')
 
 # Sidebar with buttons
 def nav_button(label, url):
-    def nav_button(label, url):
     st.markdown(
         f'''
         <a href="{url}" target="_blank" style="text-decoration: none;">
